@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65EB6868B4B47FA56231E591 /* Pods_Phmano__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866134E565244B4607908EE7 /* Pods_Phmano__macOS_.framework */; };
+		EC220BB425A752AC003ED9A2 /* Pods_Phmano__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83319E5BFA35B2E0FC07E34A /* Pods_Phmano__iOS_.framework */; };
 		ECCEF1D725A74BFC002E5D9B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1D625A74BFC002E5D9B /* Tests_iOS.swift */; };
 		ECCEF1E225A74BFC002E5D9B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1E125A74BFC002E5D9B /* Tests_macOS.swift */; };
 		ECCEF1E425A74BFC002E5D9B /* PhmanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */; };
@@ -15,6 +17,8 @@
 		ECCEF1E725A74BFC002E5D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */; };
 		ECCEF1E825A74BFC002E5D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */; };
 		ECCEF1E925A74BFC002E5D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */; };
+		ECCEF1FD25A74C6A002E5D9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */; };
+		ECCEF1FE25A74C6A002E5D9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0630D99B481472992E77A81F /* Pods-Phmano (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Phmano (macOS)/Pods-Phmano (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3F6E20C685F0B07B2E53B736 /* Pods-Phmano (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		83319E5BFA35B2E0FC07E34A /* Pods_Phmano__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phmano__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848C2FCC6D255A592578E26A /* Pods-Phmano (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (iOS).release.xcconfig"; path = "Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		866134E565244B4607908EE7 /* Pods_Phmano__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phmano__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD735A07577886EB28BCC49 /* Pods-Phmano (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (macOS).release.xcconfig"; path = "Target Support Files/Pods-Phmano (macOS)/Pods-Phmano (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhmanoApp.swift; sourceTree = "<group>"; };
 		ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,7 @@
 		ECCEF1DD25A74BFC002E5D9B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCEF1E125A74BFC002E5D9B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ECCEF1E325A74BFC002E5D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC220BB425A752AC003ED9A2 /* Pods_Phmano__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EB6868B4B47FA56231E591 /* Pods_Phmano__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEF3EDC2836BC34A9B23F6C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83319E5BFA35B2E0FC07E34A /* Pods_Phmano__iOS_.framework */,
+				866134E565244B4607908EE7 /* Pods_Phmano__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66A1F9A497B624A3663730D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E20C685F0B07B2E53B736 /* Pods-Phmano (iOS).debug.xcconfig */,
+				848C2FCC6D255A592578E26A /* Pods-Phmano (iOS).release.xcconfig */,
+				0630D99B481472992E77A81F /* Pods-Phmano (macOS).debug.xcconfig */,
+				DCD735A07577886EB28BCC49 /* Pods-Phmano (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ECCEF1B525A74BFB002E5D9B = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +125,8 @@
 				ECCEF1D525A74BFC002E5D9B /* Tests iOS */,
 				ECCEF1E025A74BFC002E5D9B /* Tests macOS */,
 				ECCEF1C325A74BFC002E5D9B /* Products */,
+				D66A1F9A497B624A3663730D /* Pods */,
+				BEF3EDC2836BC34A9B23F6C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 				ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */,
 				ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */,
 				ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */,
+				ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -158,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCEF1EC25A74BFC002E5D9B /* Build configuration list for PBXNativeTarget "Phmano (iOS)" */;
 			buildPhases = (
+				7A81FAF232A4E44171E9D441 /* [CP] Check Pods Manifest.lock */,
 				ECCEF1BE25A74BFC002E5D9B /* Sources */,
 				ECCEF1BF25A74BFC002E5D9B /* Frameworks */,
 				ECCEF1C025A74BFC002E5D9B /* Resources */,
+				244DD69D58EF11E7F082B87A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCEF1EF25A74BFC002E5D9B /* Build configuration list for PBXNativeTarget "Phmano (macOS)" */;
 			buildPhases = (
+				F610822984CD73018B3D19FE /* [CP] Check Pods Manifest.lock */,
 				ECCEF1C625A74BFC002E5D9B /* Sources */,
 				ECCEF1C725A74BFC002E5D9B /* Frameworks */,
 				ECCEF1C825A74BFC002E5D9B /* Resources */,
@@ -276,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCEF1E825A74BFC002E5D9B /* Assets.xcassets in Resources */,
+				ECCEF1FD25A74C6A002E5D9B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCEF1E925A74BFC002E5D9B /* Assets.xcassets in Resources */,
+				ECCEF1FE25A74C6A002E5D9B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +343,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244DD69D58EF11E7F082B87A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A81FAF232A4E44171E9D441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phmano (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F610822984CD73018B3D19FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phmano (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECCEF1BE25A74BFC002E5D9B /* Sources */ = {
@@ -391,6 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -450,6 +556,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -467,6 +574,7 @@
 		};
 		ECCEF1ED25A74BFC002E5D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6E20C685F0B07B2E53B736 /* Pods-Phmano (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +597,7 @@
 		};
 		ECCEF1EE25A74BFC002E5D9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848C2FCC6D255A592578E26A /* Pods-Phmano (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +621,7 @@
 		};
 		ECCEF1F025A74BFC002E5D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0630D99B481472992E77A81F /* Pods-Phmano (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +646,7 @@
 		};
 		ECCEF1F125A74BFC002E5D9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD735A07577886EB28BCC49 /* Pods-Phmano (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

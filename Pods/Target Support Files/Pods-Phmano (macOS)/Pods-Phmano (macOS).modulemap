@@ -1,0 +1,6 @@
+framework module Pods_Phmano__macOS_ {
+  umbrella header "Pods-Phmano (macOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

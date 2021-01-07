@@ -1,0 +1,6 @@
+framework module Pods_Phmano__iOS_ {
+  umbrella header "Pods-Phmano (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

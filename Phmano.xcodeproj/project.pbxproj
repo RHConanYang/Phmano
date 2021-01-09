@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		65EB6868B4B47FA56231E591 /* Pods_Phmano__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866134E565244B4607908EE7 /* Pods_Phmano__macOS_.framework */; };
 		EC220BB425A752AC003ED9A2 /* Pods_Phmano__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83319E5BFA35B2E0FC07E34A /* Pods_Phmano__iOS_.framework */; };
+		EC29E94825A983EF00AA5295 /* extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29E94725A983EF00AA5295 /* extend.swift */; };
+		EC29E94925A983EF00AA5295 /* extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29E94725A983EF00AA5295 /* extend.swift */; };
+		EC29E95425A9874A00AA5295 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29E95325A9874A00AA5295 /* UserInfo.swift */; };
+		EC29E95525A9874A00AA5295 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29E95325A9874A00AA5295 /* UserInfo.swift */; };
 		ECCEF1D725A74BFC002E5D9B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1D625A74BFC002E5D9B /* Tests_iOS.swift */; };
 		ECCEF1E225A74BFC002E5D9B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1E125A74BFC002E5D9B /* Tests_macOS.swift */; };
 		ECCEF1E425A74BFC002E5D9B /* PhmanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */; };
 		ECCEF1E525A74BFC002E5D9B /* PhmanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */; };
-		ECCEF1E625A74BFC002E5D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */; };
-		ECCEF1E725A74BFC002E5D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */; };
+		ECCEF1E625A74BFC002E5D9B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BC25A74BFB002E5D9B /* LoginView.swift */; };
+		ECCEF1E725A74BFC002E5D9B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF1BC25A74BFB002E5D9B /* LoginView.swift */; };
 		ECCEF1E825A74BFC002E5D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */; };
 		ECCEF1E925A74BFC002E5D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */; };
 		ECCEF1FD25A74C6A002E5D9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */; };
@@ -45,8 +49,10 @@
 		848C2FCC6D255A592578E26A /* Pods-Phmano (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (iOS).release.xcconfig"; path = "Target Support Files/Pods-Phmano (iOS)/Pods-Phmano (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		866134E565244B4607908EE7 /* Pods_Phmano__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phmano__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD735A07577886EB28BCC49 /* Pods-Phmano (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phmano (macOS).release.xcconfig"; path = "Target Support Files/Pods-Phmano (macOS)/Pods-Phmano (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		EC29E94725A983EF00AA5295 /* extend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extend.swift; sourceTree = "<group>"; };
+		EC29E95325A9874A00AA5295 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhmanoApp.swift; sourceTree = "<group>"; };
-		ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECCEF1BC25A74BFB002E5D9B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCEF1C225A74BFC002E5D9B /* Phmano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phmano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCEF1C525A74BFC002E5D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,10 +139,12 @@
 		ECCEF1BA25A74BFB002E5D9B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EC29E94725A983EF00AA5295 /* extend.swift */,
+				ECCEF1BC25A74BFB002E5D9B /* LoginView.swift */,
 				ECCEF1BB25A74BFB002E5D9B /* PhmanoApp.swift */,
-				ECCEF1BC25A74BFB002E5D9B /* ContentView.swift */,
 				ECCEF1BD25A74BFC002E5D9B /* Assets.xcassets */,
 				ECCEF1FC25A74C6A002E5D9B /* GoogleService-Info.plist */,
+				EC29E95325A9874A00AA5295 /* UserInfo.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -413,8 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCEF1E625A74BFC002E5D9B /* ContentView.swift in Sources */,
+				EC29E95425A9874A00AA5295 /* UserInfo.swift in Sources */,
+				ECCEF1E625A74BFC002E5D9B /* LoginView.swift in Sources */,
 				ECCEF1E425A74BFC002E5D9B /* PhmanoApp.swift in Sources */,
+				EC29E94825A983EF00AA5295 /* extend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCEF1E725A74BFC002E5D9B /* ContentView.swift in Sources */,
+				EC29E95525A9874A00AA5295 /* UserInfo.swift in Sources */,
+				ECCEF1E725A74BFC002E5D9B /* LoginView.swift in Sources */,
 				ECCEF1E525A74BFC002E5D9B /* PhmanoApp.swift in Sources */,
+				EC29E94925A983EF00AA5295 /* extend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
